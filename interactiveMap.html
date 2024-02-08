@@ -1,0 +1,47 @@
+<!-- Live Version: https://hardmoneyfirst.com/#interactivemap -->
+<div id="interactiveMap">
+<a href="https://hardmoneyfirst.com/california-hard-money-lender/" target="_parent"><div class="state" id="ca"><div class="tooltip"><span class="tooltiptext">California</span></div></div></a>
+<a href="https://hardmoneyfirst.com/arizona-hard-money-lender/" target="_parent"><div class="state" id="az"><div class="tooltip"><span class="tooltiptext">Arizona</span></div></div></a>
+<a href="https://hardmoneyfirst.com/colorado-hard-money-lender/" target="_parent"><div class="state" id="co"><div class="tooltip"><span class="tooltiptext">Colorado</span></div></div></a>
+<a href="https://hardmoneyfirst.com/minnesota-hard-money-lender/" target="_parent"><div class="state" id="mn"><div class="tooltip"><span class="tooltiptext">Minnesota</span></div></div></a>
+<a href="https://texashardmoneyfirst.com/" target="_parent"><div class="state" id="tx"><div class="tooltip"><span class="tooltiptext">Texas</span></div></div></a>
+</div>
+
+
+
+<style type="text/css">
+
+	#interactiveMap { position: relative; width:100%; max-width:786px; aspect-ratio: 1/.65; background-image:url('Map.svg'); background-position:center; background-size:contain; margin:0px auto; padding:0; }
+	
+	.state { position:absolute; display:block; z-index:1; background-position:top left; background-size:cover; opacity:0; background-repeat:no-repeat; }
+	.state:hover { opacity:1; }
+	#ca { width:14.23%; height:39.30%; top: 22.75%; left:3.32%; background-image: url('CA.svg?v=1');  }
+	#az { width:12.30%; height:22.64%; top: 47.20%; left:16.10%; background-image: url('AZ.svg?v=1'); }
+	#co { width:13.10%; height:15.10%; top: 35.22%; left:28.70%; background-image: url('CO.svg?v=1'); }
+	#mn { width:12.15%; height:21.09%; top: 6.92%; left:50.60%; background-image: url('MN.svg?v=1'); }
+	#tx { width:26.0%; height:38.61%; top: 53.12%; left:31.80%; background-image: url('TX.svg?v=1'); }
+
+	.state span { display:block; width:auto; color:#FFF; font-family:sans-serif; font-size:12px; font-weight:600; top:50%; left:50%; position:absolute; transform:translateX(-50%) translateY(-50%);  }
+	#ca span { transform:translateX(-80%) translateY(10%);  }
+	#az span { transform:translateX(-50%) translateY(-50%);  }
+	#co span { transform:translateX(-50%) translateY(-50%);  }
+	#mn span { transform:translateX(-95%) translateY(-50%);  }
+	#tx span { transform:translateX(20%) translateY(-50%);  }
+
+	/* Tooltip container */
+	.tooltip { width: 100%; height: 100%; position: absolute; display: inline-block;   }
+	.tooltip .tooltiptext { font-family: 'Montserrat', sans-serif; font-weight: 400; opacity:0; visibility: hidden; width: 190px; height: 47px; line-height: 53px; vertical-align: middle;  background-image:url('tooltip.png'); color: #666; text-align: center; padding:0 0px 19px; border-radius: 6px; position: absolute; top:15%; left:50%; transform: translateX(-50%) !important; font-size: 22px; transition:visibility .3s linear, opacity .3s linear; z-index:9999; background-size:contain; background-repeat: no-repeat; }
+	.tooltip:hover .tooltiptext { opacity: 1; visibility: visible;  }
+	#ca .tooltip .tooltiptext { left:40% !important; top: 40% !important; }
+	#co .tooltip .tooltiptext { top: 5% !important; }
+	#tx .tooltip .tooltiptext { top: 30% !important; }
+	#mn .tooltip .tooltiptext { left: 40% !important; top:20% !important; }
+
+	@media only screen and (max-width:767px) {
+
+	.tooltip .tooltiptext { width: 120px; height: 42px; line-height: 37px; padding:0px 0 19px; font-size: 14px; }
+
+
+	}
+
+</style>
